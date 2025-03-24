@@ -1,0 +1,8 @@
+flask
+requests
+gnews
+textblob
+gtts
+streamlit
+nltk
+deep-translator==1.11.4

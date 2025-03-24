@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 
-GNEWS_API_KEY = "f93a963568966228322d6ffddcbfa971"
+GNEWS_API_KEY = "your ap key"
 news_fetcher = GNews(language="en", max_results=5)
 
 if not os.path.exists("static"):
